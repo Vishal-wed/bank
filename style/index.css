@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Inclusive+Sans:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inclusive Sans", sans-serif;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+.main{
+    height: 729px;
+    /* background-color: aqua; */
+    color: #fff;
+    position: relative;
+    left: 88px;
+    width: 1448px;
+}
+.not{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #242526;
+    position: absolute;
+    right: 10px;
+    margin: 20px;
+    bottom: 10px;
+}
+.detail{
+    margin: 10px;
+}
+.text_name{
+    margin: 10px;
+    color: #a8a8a8;
+    font-size: 15px;
+}
+.text_email{
+    margin: 10px;
+    color: #a8a8a8;
+    font-size: 15px;
+}
+.holder_name{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.holder_email{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.mobile_fram{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50px;
+    left: 200px;
+    height: 650px;
+    width: 350px;
+    border-radius: 40px;
+    background-color: #242526;
+    
+}
+.mobile_display{
+    height: 630px;
+    width: 330px;
+    border-radius: 35px;
+    background: black;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.land{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    width: 100%;
+    height: 30px;
+    background-color: #ffffff;
+}
+#symbol{
+    margin-right: 20px;
+    height: 15px;
+    width: 85px;
+}
+.date{
+    margin-left: 20px;
+}
+.back{
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    height: 5px;
+    transform: translate(-50%);
+    width: 100px;
+    background-color: #fff;
+}
+.card{
+    margin-top: 20px;
+    height: 150px;
+    width: 300px;
+    border-radius: 20px;
+    background: #242526;
+}
+.first_line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+#visa{
+    height: 30px;
+}
+#bank_name{
+    position: relative;
+    top: -5px;
+    font-size: 15px;
+    font-weight: 800;
+}
+.amount_details{
+    margin: 10px;
+    margin-top: 15px;
+}
+#total_amount{
+    font-size: 20px;
+    font-weight: 900;
+}
+.last_line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    margin-top: 20px;
+}
+#chip{
+    height: 30px;
+}
+#user_name{
+    font-size: 15px;
+    font-weight: 900;
+    position: relative;
+    top: 5px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    height: 50px;
+    width: 300px;
+    font-weight: 900;
+    font-size: 15px;
+}
+.history{
+    display: flex;
+    flex-direction: column;
+    height: 380px;
+    width: 300px;
+    margin: 20px;
+    margin-top: 10px;
+}
+.history_line{
+    display: flex;
+    align-items: center;
+    background-color: #242526;
+    height: 50px;
+    width: 300px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+#suc{
+    height: 40px;
+    margin: 5px;
+}
+#payment_status{
+    font-size: 20px;
+    font-weight: 900;
+}
+#amount{
+    font-weight: 900;
+    position: absolute;
+    right: 40px;
+}
+
+/* demo card */
+.order_page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 70px;
+    right: 70px;
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+    background-color: #242526;
+}
+.card2{
+    margin-top: 20px;
+    /* position: absolute;
+    top: 100px; */
+    height: 250px;
+    width: 450px;
+    background-color: black;
+    background-image: url(/bank/pic/bg6.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+.pic_line{
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+}
+.pic{
+    height: 40px;
+}
+.number_line{
+    display: flex;
+    margin: 20px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+#number{
+    font-size: 25px;
+    font-weight: 900;
+}
+.name_line{
+    position: relative;
+    top: -10px;
+    margin: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: none;
+}
+.last{
+    position: relative;
+    top: -15px;
+    margin: 20px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 60px;
+    position: relative;
+    top: -8px;
+    left: 10px;
+}
+.sen{
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+#cut_number{
+    font-size: 15px;
+    font-weight: 500;
+}
+#order_button{
+    position: absolute;
+    bottom: 20px;
+    left: 25px;
+    border: none;
+    font-size: 15px;
+    font-weight: 900;
+    width: 450px;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+}
+.alredy{
+    font-size: 30px;
+    font-weight: 800;
+    margin: 40px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+#order_success{
+    height: 70px;
+}
+.error_noti{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 89px;
+    position: fixed;
+    top: 1px;
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    font-size: 20px;
+    background-color: red;
+}
+.icon2{
+    cursor: pointer;
+    margin-right: 20px;
+}

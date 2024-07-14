@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Electrolize&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Dosis", sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#img_no_conn{
+    height: 350px;
+}
+.text{
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+#re{
+    height: 40px;
+    width: 90px;
+    font-size: 15px;
+    font-weight: 800;
+    background-color: rgb(185, 0, 37);
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+}
